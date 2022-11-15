@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aacf27b-7892-4d8b-8884-3f6184763ba2" name="Changes" comment="add get post delete method">
+    <list default="true" id="6aacf27b-7892-4d8b-8884-3f6184763ba2" name="Changes" comment="add custom resource">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolum-16-vue-resource-ile-http-servislerine-baglanmak-baslangic-kodu/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/bolum-16-vue-resource-ile-http-servislerine-baglanmak-baslangic-kodu/src/App.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <workItem from="1668072519507" duration="10121000" />
       <workItem from="1668408925691" duration="332000" />
       <workItem from="1668409287397" duration="1425000" />
-      <workItem from="1668431745851" duration="9584000" />
+      <workItem from="1668431745851" duration="9779000" />
     </task>
     <task id="LOCAL-00001" summary="first comm">
       <created>1668431459483</created>
@@ -67,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668507992621</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add custom resource">
+      <created>1668511444281</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668511444281</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +82,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first comm" />
     <MESSAGE value="add get post delete method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add get post delete method" />
+    <MESSAGE value="add custom resource" />
+    <option name="LAST_COMMIT_MESSAGE" value="add custom resource" />
   </component>
 </project>
