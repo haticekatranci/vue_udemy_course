@@ -25,18 +25,22 @@ export default {
   data(){
     return{
       userName : null,
-      userList : []
+      userList : [],
+      resource : {}
     }
   },
   methods : {
     saveUser(){
-      this.$http.post('users.json', { userName : this.userName })
+     /* this.$http.post('users.json', { userName : this.userName })
         .then((response) =>{
           console.log(response);
-        })
+        })*/
+     /* this.$resource("users.json").save({}, { userName : this.userName} );*/
+    this.resource.kaydet({} , { userName : this.userName });
     },
+
     getUsers(){
-      this.$http.get('users.json')
+     /* this.$http.get('users.json')
         .then((response) =>{
           return response.json();
         }).then(data => {
@@ -49,14 +53,35 @@ export default {
                }
            );
          }
+      })*/
+      this.$resource("users.json").get()
+        .then((response) =>{
+          return response.json();
+          }).then(data => {
+          for (let key in data.userList) {
+            this.userList.push(
+              {
+                key: key,
+                data: data.userList[key]
+              }
+            );
+          }
       })
     },
     deleteUser(userKey){
-      this.$http.delete("users/"+ userKey + ".json")
+      /*this.$http.delete("users/"+ userKey + ".json")
           .then(response => {
             console.log(response);
-          })
+          })*/
+      this.$resource("users/"+ userKey + ".json").delete();
     }
+  },
+
+  created(){
+    const customActions = {
+      kaydet : { method : "POST", url : "users.json" }
+    };
+    this.resource = this.$resource("",{},customActions);
   }
 }
 </script>
