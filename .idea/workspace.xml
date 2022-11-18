@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6aacf27b-7892-4d8b-8884-3f6184763ba2" name="Changes" comment="add custom resource">
+      <change afterPath="$PROJECT_DIR$/bolum-17-vue-router-ile-route-yonetimi-baslangic-kodu/src/components/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bolum-17-vue-router-ile-route-yonetimi-baslangic-kodu/src/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolum-17-vue-router-ile-route-yonetimi-baslangic-kodu/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bolum-17-vue-router-ile-route-yonetimi-baslangic-kodu/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolum-17-vue-router-ile-route-yonetimi-baslangic-kodu/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/bolum-17-vue-router-ile-route-yonetimi-baslangic-kodu/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolum-17-vue-router-ile-route-yonetimi-baslangic-kodu/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/bolum-17-vue-router-ile-route-yonetimi-baslangic-kodu/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
