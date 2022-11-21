@@ -2,13 +2,32 @@
   <div class="container">
     <h3>User Edit Component</h3>
     <hr>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, earum libero odit optio repellendus sed
-      soluta? Animi, atque blanditiis commodi consequatur distinctio dolorem eaque eos expedita, modi reprehenderit
-      repudiandae soluta.
-    </p>
+    <p> Ad : {{ $route.query.name  }} </p>
+    <p> Soyad : {{ $route.query.lastName }} </p>
+    <button class="btn btn-primary" @click="saved = true">Onayla</button>
+    <div style="height: 800px;"></div>
+    <p id="data">Burada gelcek bilgiler var</p>
   </div>
 </template>
 <script>
-  export default {}
+  export default {
+    data(){
+      return {
+        saved : false
+      }
+    },
+    beforeRouteLeave(to, from, next){
+      if(this.saved){
+        next();
+      }else {
+        if (confirm("Tüm bilgileriniz kaybolacak. Emin misiniz?")) {
+          next();
+        }else {
+          next(false);
+        }
+      }
+
+      next();
+    }
+  }
 </script>
