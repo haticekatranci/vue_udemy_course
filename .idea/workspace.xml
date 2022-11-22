@@ -4,13 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aacf27b-7892-4d8b-8884-3f6184763ba2" name="Changes" comment="add rout">
+    <list default="true" id="6aacf27b-7892-4d8b-8884-3f6184763ba2" name="Changes" comment="add vuex">
+      <change afterPath="$PROJECT_DIR$/bolum-18-vuex-baslangic-kodu/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bolum-18-vuex-baslangic-kodu/src/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolum-18-vuex-baslangic-kodu/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bolum-18-vuex-baslangic-kodu/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolum-18-vuex-baslangic-kodu/src/components/Counter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/bolum-18-vuex-baslangic-kodu/src/components/Counter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolum-18-vuex-baslangic-kodu/src/components/Result.vue" beforeDir="false" afterPath="$PROJECT_DIR$/bolum-18-vuex-baslangic-kodu/src/components/Result.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolum-18-vuex-baslangic-kodu/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/bolum-18-vuex-baslangic-kodu/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,25 +32,29 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HLkaBjc7riWGRmKlqsdSLuVvEq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/haticekatranci/Documents/Github/Tamircity13.ekim&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TODO_SCOPE": "All Places",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/haticekatranci/Documents/Github/Tamircity13.ekim",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +70,7 @@
       <workItem from="1668431745851" duration="9779000" />
       <workItem from="1669014463712" duration="375000" />
       <workItem from="1669015539400" duration="16127000" />
-      <workItem from="1669103197525" duration="621000" />
+      <workItem from="1669103197525" duration="2934000" />
     </task>
     <task id="LOCAL-00001" summary="first comm">
       <created>1668431459483</created>
@@ -111,19 +128,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669042901945</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add vuex">
+      <created>1669105054910</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669105054910</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first comm" />
     <MESSAGE value="add get post delete method" />
     <MESSAGE value="add custom resource" />
     <MESSAGE value="add router link" />
     <MESSAGE value="add router link id" />
     <MESSAGE value="add rout" />
-    <option name="LAST_COMMIT_MESSAGE" value="add rout" />
+    <MESSAGE value="add vuex" />
+    <option name="LAST_COMMIT_MESSAGE" value="add vuex" />
   </component>
 </project>

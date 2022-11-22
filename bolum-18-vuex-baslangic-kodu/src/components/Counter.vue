@@ -9,10 +9,12 @@
 export default {
   methods : {
     incrementCounter(){
-      this.$emit("counterEvent", 1);
+      //this.$emit("counterEvent", 1);
+      this.$store.state.counter++;
     },
     decrementCounter(){
-      this.$emit("counterEvent", -1);
+      //this.$emit("counterEvent", -1);
+      this.$store.state.counter--;
     }
   }
 }
