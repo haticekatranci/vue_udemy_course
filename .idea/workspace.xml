@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aacf27b-7892-4d8b-8884-3f6184763ba2" name="Changes" comment="add vuex">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6aacf27b-7892-4d8b-8884-3f6184763ba2" name="Changes" comment="delete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TODO_SCOPE": "All Places",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/haticekatranci/Documents/Github/Tamircity13.ekim",
+    "last_opened_file_path": "/home/haticekatranci/Documents/Github/vue_udemy_course",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,6 +63,7 @@
       <workItem from="1669014463712" duration="375000" />
       <workItem from="1669015539400" duration="16127000" />
       <workItem from="1669103197525" duration="3018000" />
+      <workItem from="1670498844753" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="first comm">
       <created>1668431459483</created>
@@ -136,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669120249800</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="delete">
+      <created>1670498880055</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670498880055</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +157,7 @@
     <MESSAGE value="add router link id" />
     <MESSAGE value="add rout" />
     <MESSAGE value="add vuex" />
-    <option name="LAST_COMMIT_MESSAGE" value="add vuex" />
+    <MESSAGE value="delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete" />
   </component>
 </project>
