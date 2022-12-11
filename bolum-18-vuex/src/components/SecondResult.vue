@@ -2,9 +2,9 @@
   <div>
     <p class="counter-container"> Sayaç : {{ double }}</p>
     <p class="counter-container"> Tıklama sayısı : {{ stringC }}</p>
-<!--    <p class="counter-container"> Tıklama Sayısı : {{ stringC }}</p>
     <input type="text" v-model="value">
-    <p> {{ value }}</p>-->
+    <p> {{ value }}</p>
+
   </div>
 </template>
 <script>
@@ -17,10 +17,17 @@
          double : 'getDoubleCounter',
          stringC : 'stringCounter'
      }),
-     customProp(){
+     value : {
+       get(){
+         return this.$store.getters.getValue;
 
+       },
+       set(value){
+         this.$store.dispatch("setValueData", value)
+
+       }
      }
-   }
+   },
 
 
      /* value : {

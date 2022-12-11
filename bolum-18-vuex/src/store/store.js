@@ -9,24 +9,12 @@ Vue.use(Vuex);
 
 export const store = new Vuex.Store({
   state: {
-    counter : 0
+    value : 10,
   },
-  getters : {
-    getDoubleCounter(state){
-      return state.counter * 2;
-    },
-    stringCounter(state){
-      return state.counter + ".kez Tıklandı" ;
-    }
-  },
-  mutations :{
-    increaseCounter(state ){
-      state.counter++;
-    },
-    decreaseCounter(state ){
-      state.counter--;
-    },
-
-  },
-
+  getters,
+  mutations,
+  actions,
+  modules : {
+    counter
+  }
 });
