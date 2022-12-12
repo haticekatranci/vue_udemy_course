@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aacf27b-7892-4d8b-8884-3f6184763ba2" name="Changes" comment="delete">
+    <list default="true" id="6aacf27b-7892-4d8b-8884-3f6184763ba2" name="Changes" comment="add state store getters">
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/__MACOSX/._nasil-calistiririm.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/__MACOSX/template/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/__MACOSX/template/._urun-cikisi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/__MACOSX/template/._urun-giris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/nasil-calistiririm.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/components/products/ProductList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/components/products/ProductPurchase.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/components/products/ProductSell.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/components/shared/Footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/components/shared/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/template/loading.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/template/urun-cikisi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/template/urun-giris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/template/urun-listesi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
