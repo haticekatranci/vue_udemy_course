@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aacf27b-7892-4d8b-8884-3f6184763ba2" name="Changes" comment="add router directory structure">
-      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/store/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/store/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/store/modules/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/store/mutations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/store/store.js" afterDir="false" />
+    <list default="true" id="6aacf27b-7892-4d8b-8884-3f6184763ba2" name="Changes" comment="add actions mutations getters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/components/products/ProductPurchase.vue" beforeDir="false" afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/components/products/ProductPurchase.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/store/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/store/modules/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/store/modules/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/store/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/19-urun-islemleri-uygulamasi-baslangic-kodu/src/store/mutations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +74,7 @@
       <workItem from="1669103197525" duration="3018000" />
       <workItem from="1670498844753" duration="83000" />
       <workItem from="1670694032607" duration="1164000" />
+      <workItem from="1671017337239" duration="9231000" />
     </task>
     <task id="LOCAL-00001" summary="first comm">
       <created>1668431459483</created>
@@ -160,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670846810091</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add actions mutations getters">
+      <created>1670851351382</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670851351382</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +195,7 @@
     <MESSAGE value="add vuex" />
     <MESSAGE value="delete" />
     <MESSAGE value="add router directory structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="add router directory structure" />
+    <MESSAGE value="add actions mutations getters" />
+    <option name="LAST_COMMIT_MESSAGE" value="add actions mutations getters" />
   </component>
 </project>
