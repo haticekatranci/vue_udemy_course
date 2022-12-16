@@ -3,8 +3,5 @@ export const getTradeResult = (state) => {
         purchase : state.purchase,
         sale : state.sale,
         balance :state.balance,
-
     }
-
-
 }
