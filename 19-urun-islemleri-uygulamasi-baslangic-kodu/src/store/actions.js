@@ -7,10 +7,16 @@ export const setTradeResult = ({state, commit}, tradeResult ) => {
     }
     Vue.http.put("https://urun-islemleri-prod-fdfde-default-rtdb.firebaseio.com/trade-result.json", tradeData )
         .then(response => {
-            console.log(response);
         })
 
 }
 export const getTradeResult = ({commit}) => {
+
+    Vue.http.get("https://urun-islemleri-prod-fdfde-default-rtdb.firebaseio.com/trade-result.json")
+        .then(response => {
+            console.log(response);
+            commit("updateTradeResult", response.body)
+
+        })
 
 }
